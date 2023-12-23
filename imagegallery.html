@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallary</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(164, 34, 240);
+        }
+        h1{
+            border: 1px solid black;
+            background-image: linear-gradient(35deg,rgb(28, 28, 212),rgb(230, 85, 109));
+            height: 60px;
+            text-align: center;
+            color: aliceblue;
+            font-family: cursive;
+            margin: 0px;
+            
+        }
+         img{
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            /* border: 1px solid red; */
+            box-shadow: 0px 0px 20px rgb(4, 104, 37);
+            animation-name: sri-animate;
+            animation-duration: 5s;
+            background-color: aliceblue;
+         }
+         @keyframes sri-animate {
+            
+         }
+         .container1{
+            /* border:1px solid green; */
+            display: flex;
+            width: 800px;
+            justify-content: space-between;
+            margin: 20px auto;
+         }
+         .container2{
+            margin: auto;
+            width: fit-content;
+         }
+         img:hover{
+            transform: scale(1.2);
+         }
+         .container3{
+            /* border: 1px solid red; */
+            width: 600px;
+            height: 300px;
+            border-radius: 50px;
+            margin: auto 0 40px auto;
+            position: relative;
+            left:-100px;
+            bottom:200px;
+            box-shadow: ;
+         }
+        .container4{
+            border-radius: 50%;
+            background-image: url(./images/IMG_20230107_212804_288.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .container3 div{
+            position: relative;
+            left:250px;
+            bottom: 200px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image gallery</h1>
+    <div class="container1">
+        <img src="https://cdn.pixabay.com/animation/2023/01/19/18/24/18-24-20-426_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2023/10/20/03/38/03-38-03-793_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2023/07/01/12/25/12-25-50-208_512.gif" alt="">
+    </div>
+    <div class="container1">
+        <img src="https://cdn.pixabay.com/animation/2022/07/30/10/38/10-38-40-340_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2023/06/21/12/57/12-57-08-601_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2023/02/23/23/26/23-26-34-644_512.gif" alt="">
+    </div>
+    <div class="container1">
+        <img src="https://cdn.pixabay.com/animation/2022/11/09/13/06/13-06-21-906_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2023/03/05/21/13/21-13-51-872_512.gif" alt="">
+        <img src="https://cdn.pixabay.com/animation/2022/08/06/13/17/13-17-20-260_512.gif" alt="">
+    </div>
+    <div class="container2"> <img class="container2" src="https://cdn.pixabay.com/animation/2022/08/23/03/32/03-32-04-108_512.gif" alt="">
+    </div>
+    <div class="container3">
+        <img class="container4" src="" alt="">
+        <div>
+            <h2>N.sriharsha</h2>
+        <h3>Email:- sriharshanaladala999@gmail.com</h3>
+        <h3>mobile no:- 8885566863</h3>
+        </div>
+    </div>
+</body>
+</html>
